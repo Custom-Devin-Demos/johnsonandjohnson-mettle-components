@@ -38,6 +38,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@jsdevtools/coverage-istanbul-loader": "^3.0.5",
+    "@mdx-js/react": "^1.6.22",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
@@ -58,6 +59,8 @@
     "karma-webpack": "^5.0.1",
     "markdown-it": "^14.1.0",
     "nyc": "^17.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "standard-version": "^9.5.0",
     "webpack": "^5.100.2",
     "webpack-cli": "^6.0.1"

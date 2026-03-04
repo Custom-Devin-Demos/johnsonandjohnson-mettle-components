@@ -13,5 +13,11 @@ module.exports = {
     "@storybook/addon-essentials",
     "@whitespace/storybook-addon-html",
   ],
-  "framework": "@storybook/html"
+  "framework": "@storybook/html",
+  webpackFinal: async (config) => {
+    if (Array.isArray(config.entry)) {
+      config.entry = [...new Set(config.entry)];
+    }
+    return config;
+  },
 }
